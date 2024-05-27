@@ -225,7 +225,7 @@ In this lab you will add an external data source.
 1. Set the **OnSelect** property of **DeclineIcon** in the formula bar to:
 
     ```powerappsfl
-    Patch('Booking Requests', ThisItem, {Decision: 'Decision (Booking Requests)'.Declined})
+    Patch('Booking Request', ThisItem, {Decision: 'Decision (Booking Request)'.Declined})
     ```
 
 ## Exercise 5 – Office 365 Users
